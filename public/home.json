@@ -1,0 +1,342 @@
+{
+  "GlobalConfig": {
+    "showFliggy": true
+  },
+  "Header": {
+    "languageLabel": "CN",
+    "bookOnline": "在线预订",
+    "bookPhone": "预订热线",
+    "follow": "关注我们",
+    "WORKING_HOURS": "工作日：9:00-18:00",
+    "fliggy_PC": "https://costa.fliggy.com/",
+    "fliggy_Mob": "https://costa.m.tmall.com/"
+  },
+  "Footer": {
+    "FOOTER_BACKGROUND_DESKTOP_ALT": "海洋背景",
+    "FOOTER_BACKGROUND_MOBILE_ALT": "海洋背景",
+    "MEET_A_GOOD_TIME_ALT": "遇见好时光",
+    "FLEET_ALT": "邮轮",
+    "BEIAN": "Copyright@2015-2019 意大利歌诗达邮轮有限公司上海代表处 沪ICP备案140001638-2 联系电话：021-3305 3311",
+    "follow": "关注我们",
+    "email": "邮箱",
+    "ICON_TELEPHONE_ALT": "电话",
+    "startNow": "马上启航"
+  },
+  "BackToPageTop": {
+    "backTop": "回到顶端"
+  },
+  "Campaign1": {
+    "BannerImageAlt": "歌诗达邮轮最新活动",
+    "title1": "三大好时光航线",
+    "title2": "全家撒欢任性玩",
+    "fleetStamperAlt": "邮轮印章",
+    "coverImageAlt": "Costa航线图片",
+    "startNow": "立即启航",
+    "wait": ""
+  },
+  "Loading": {
+    "tip": "加载中..."
+  },
+  "Fleet": {
+    "experienceMore": "了解更多",
+    "sectionTitle": "",
+    "pageTitle": "歌诗达邮轮船队",
+    "informationButtonText": "探索更多",
+    "moreFleets": "更多邮轮敬请期待",
+    "moreFeatures": "探索更多好时光",
+    "hotExcursionTitle": "热门岸上游路线"
+  },
+  "Home": {
+    "carouselAlt": "歌诗达邮轮最新活动",
+    "carousels": [
+      {
+        "url": "/media/home-banner/home-banner-4.jpg",
+        "mobileUrl": "/media/home-banner/home-banner-4-mobile.jpg",
+        "target": "/itineraries?departureCity=&destination=&departureDate=&nights=&fleet=VE&fleetsName=%E5%A8%81%E5%B0%BC%E6%96%AF%E5%8F%B7",
+        "alt": "歌诗达威尼斯号奇幻之旅"
+      },
+      {
+        "url": "/media/home-banner/home-banner-0.jpg",
+        "mobileUrl": "/media/home-banner/home-banner-0-mobile.jpg",
+        "target": "https://www.costachina.com/mktcamp/venezia/index.html",
+        "alt": "歌诗达威尼斯号奇幻之旅"
+      },
+      {
+        "url": "/media/home-banner/home-banner-2.jpg",
+        "mobileUrl": "/media/home-banner/home-banner-2-mobile.jpg",
+        "target": "https://www.costachina.com/mktcamp/neoromantic",
+        "alt": "歌诗达新浪漫号"
+      },
+      {
+        "url": "/media/home-banner/home-banner-3.jpg",
+        "mobileUrl": "/media/home-banner/home-banner-3-mobile.jpg",
+        "target": "https://www.costachina.com/mktcamp/atlantica",
+        "alt": "歌诗达大西洋号"
+      },
+      {
+        "url": "/media/home-banner/home-banner-1.jpg",
+        "mobileUrl": "/media/home-banner/home-banner-1-mobile.jpg",
+        "target": "/campaigns/2018-may-campaign",
+        "alt": "歌诗达邮轮在海上遇见好时光"
+      }
+    ],
+    "discoverMore": "发现更多",
+    "discoverCostaTitle": "发现心仪好时光",
+    "discoverCostasubTitle": "吃喝玩乐购，精彩聚集地",
+    "destinationTitle1": "探索未知",
+    "destinationTitle2": "好时光",
+    "destinationSubTitle": "开启新旅程，体验多元风情",
+    "titleIconAlt": "船舵",
+    "worldMapAlt": "世界地图",
+    "whyCruiseTitle": "面朝大海，遇见意式风情",
+    "whyCruiseSubTitle": "启航度假好时光",
+    "readMore": "阅读更多",
+    "findOut": "了解更多",
+    "uniquenessTitle1": "新“意”代",
+    "uniquenessTitle2": "心启航",
+    "uniquenessSubTitle": "六大独家体验，2019全新启航",
+    "italianFlagAlt": "意大利国旗",
+    "waveAlt": "黄色的波浪"
+  },
+  "ImageCard": {
+    "findMore": "发现更多"
+  },
+  "ImageGrid": {
+    "shoreText": "精选岸上游",
+    "more": "了解更多"
+  },
+  "Itineraries": {
+    "coverImageAlt": "Costa航线图片",
+    "more": "了解更多",
+    "agentPrice": "旅行社报价",
+    "customerService": "请咨询客服",
+    "mainTitle": "开启一段惬意好时光",
+    "subTitle": "寻找您的心仪航线",
+    "hotExcursionTitle": "热门岸上游路线",
+    "flyCruiseTips": [
+      "歌诗达邮轮仅提供与邮轮本身相关的服务。从您所在城市至邮轮出发港口的国际航班信息，由相关旅行社提供。",
+      "详情请咨询歌诗达服务热线：400 820 7888."
+    ],
+    "upgradeTips": [
+      "即日起，订购阳台双人房享海景房价格",
+      "活动截止日期：2018年12月31日。",
+      "详情请咨询歌诗达服务热线：400 820 7888。"
+    ]
+  },
+  "Itinerary": {
+    "imgAltPrefix": "歌诗达邮轮",
+    "title": "每日行程",
+    "subtitle": "- 感受不一样的美好，体验正宗的意大利 -",
+    "book": "立即预订",
+    "price": "元/人·起",
+    "agentPrice": "旅行社报价",
+    "customerService": "请咨询客服",
+    "hotline": "咨询热线：400 820 7888",
+    "tips": "*显示价格不包含领队服务费，岸上观光费用，日本国际观光旅客税，邮轮服务费，护照工本费，邮轮旅游意外保险，个人消费等。",
+    "tabs": [
+      "行程简介",
+      "目的地攻略",
+      "邮轮简介"
+    ],
+    "shekouPort": "歌诗达邮轮所有深圳始发船只均从蛇口邮轮母港出发。",
+    "cityOfShekouPort": "深圳"
+  },
+  "Modals": {
+    "title": "立即预订",
+    "taobao": "手机淘宝扫一扫",
+    "redirectTo": "跳转到",
+    "costaTmall": "歌诗达邮轮官方旗舰店",
+    "tap": "扫描二维码",
+    "flyggyIconAlt": "飞猪图标",
+    "computerIconAlt": "电脑图标",
+    "clickToLink": "点击跳转链接",
+    "clickTheButton": "点击按钮，",
+    "wechat": "微信扫一扫",
+    "wechatMp": "歌诗达邮轮小程序"
+  },
+  "FleetParameter": {
+    "details": "小档案",
+    "tonnage": "总吨位",
+    "length": "长度",
+    "width": "宽度",
+    "decks": "甲板层数",
+    "speed": "最高航速",
+    "capacity": "载客量",
+    "rooms": "总房间数"
+  },
+  "ItinerariesSearchBar": {
+    "placeholder": {
+      "departureCity": "出发港口",
+      "destination": "目的地",
+      "departureDate": "出发时间",
+      "nights": "旅行天数",
+      "fleet": "选择邮轮"
+    },
+    "defaultOption": {
+      "departureCity": "全部出发港口",
+      "destination": "全部目的地",
+      "departureDate": "全部出发时间",
+      "nights": "全部旅行天数",
+      "fleet": "全部邮轮"
+    },
+    "searchButtonText": "查询",
+    "cnDepart": "国内出发",
+    "intlDepart": "海外出发"
+  },
+  "ItineraryList": {
+    "sortButtonText": "时间排序",
+    "recmmondButtonText": "推荐航线",
+    "emptyItineraryMessage": "没有符合条件的航线，请尝试重新选择筛选条件~",
+    "switcherContent": [
+      {
+        "typCode": "CN",
+        "typeName": "国内出发邮轮"
+      },
+      {
+        "typCode": "INTL",
+        "typeName": "海外出发邮轮"
+      }
+    ]
+  },
+  "AgentBookModal": {
+    "title": "代理商订购",
+    "travelAgency": "代理商",
+    "district": "地区",
+    "telephone": "订购热线",
+    "subNotice": "歌诗达邮轮幸运号带你从天津港出发领略和风日本，敬请联系您就近的代理旅行社或拨打我们的官方预定热线: 400 820 7888 ( 工作日9:00-18:00 )，更多惊喜等着你。"
+  },
+  "VideoPlayer": {
+    "videoNotSupportMsg": "您的浏览器不支持video标签"
+  },
+  "AboutCosta": {
+    "pageTitle": "关于歌诗达邮轮",
+    "bannerImageAlt": "歌诗达邮轮",
+    "paragraphs": [
+      {
+        "title": "歌诗达邮轮——专业的世界邮轮旅行品牌",
+        "content": "隶属于世界邮轮业翘楚嘉年华集团，Costa Crociere, S.p.A.(意大利歌诗达邮轮有限公司）是欧洲首屈一指的邮轮公司，歌诗达邮轮于2006年首次开启以中国为母港运营的国际邮轮航线，成为首家进驻中国的国际邮轮公司。目前，歌诗达邮轮旗下有15艘意大利籍在役邮轮，包括服务于中国市场的[歌诗达邮轮大西洋号](/fleets/atlantica)、[歌诗达邮轮赛琳娜号](/fleets/serena)和[歌诗达邮轮幸运号](/fleets/fortuna)，是欧洲最大的邮轮船队。歌诗达邮轮进入中国十余年来，已为超过200万中国游客提供纯正的“[海上意大利](/experiences/uniqueness)”邮轮假期。歌诗达邮轮将继续致力于丰富海上邮轮产品，满足游客日益增长的消费需求。伴随中国邮轮市场的快速发展，歌诗达邮轮为中国市场量身订购的2艘Vista级的大型邮轮将分别于2019年和2020年进入中国，为更多国内游客带来新“意”代的游客体验。"
+      },
+      {
+        "title": "热情“橙”——热“橙”的意式服务理念",
+        "content": "竭诚为您服务是歌诗达邮轮70年以来为各位旅客服务时秉持的服务理念，我们不仅希望您能体验到最纯正的意式风情之旅，更愿您能够真正的感受到来自意大利的待客之道，体验纯正意大利的本土风情。在歌诗达邮轮陪伴您的旅途中，热情不只是提供周到的服务，更希望能够给您带来家的归属感，让您置身于趣味横生的海上新世界，尽情地享受歌诗达邮轮给您带来的愉悦航海旅行。热情“橙”的品牌精神将延伸巡航的界限，与歌诗达邮轮的每一次出发都是令人愉悦和欣喜，我们将与你共同去探索航海的新乐趣。"
+      },
+      {
+        "title": "CIAO！——纯正的意式风情体验",
+        "content": "歌诗达邮轮始于1860年意大利，传承浪漫的意式风情，巡游于蔚蓝的大海之上，与你共同开启一场绚丽的意彩之旅，让每一位旅客感受纯正的意式浪漫气息。你可以在这里尽情放松，享受恬静舒缓的海上SPA，也可以和家人共同感受缤纷的海上时刻。不仅有精彩绚丽的歌舞秀给你带来视觉上的盛宴，更有地道的那不勒斯意式pizza满足你的味觉体验，浓厚的意式气息时刻萦绕在你的身边，听意大利的浪漫情歌为你织梦，感缱绻海风吹拂耳畔，享最纯正的意式风情体验只在歌诗达邮轮。"
+      }
+    ],
+    "aboutVideos": {
+      "mp4": "https://s3.cn-north-1.amazonaws.com.cn/costa-viedo-2018/about-video.mp4",
+      "webm": "https://s3.cn-north-1.amazonaws.com.cn/costa-viedo-2018/about-video.webm",
+      "ogv": "https://s3.cn-north-1.amazonaws.com.cn/costa-viedo-2018/about-video.ogv"
+    }
+  },
+  "Club": {
+    "title": "歌诗达邮轮俱乐部",
+    "subtitle": "众多专属礼遇邀你共享",
+    "copyright": "歌诗达邮轮拥有最终解释权。",
+    "viewScore": "点击此处查看会员等级及积分详情",
+    "viewLevel": "点击此处查看会员礼遇",
+    "scoreAlt": "会员等级升级",
+    "levelAlt": "会员礼遇升级"
+  },
+  "Experiences": {
+    "bannerImageAlt": "歌诗达邮轮发现心仪好时光",
+    "bannerText": "发现心仪好时光",
+    "bannerSubText": "吃喝玩乐购，精彩聚集地",
+    "imageAltPrefix": "歌诗达邮轮"
+  },
+  "FleetWikipedia": {
+    "bannerText": "邮轮百科",
+    "tabs": [
+      "你问我答",
+      "上船小贴士",
+      "乘客条款"
+    ]
+  },
+  "NotFound": {
+    "errorMessage": "我们很抱歉，你正在寻找的页面不存在…",
+    "backButtonText": "返回首页"
+  },
+  "TermsAndConditions": {
+    "title": "隐私政策"
+  },
+  "Faq": {
+    "title": "乘客条款"
+  },
+  "Destinations": {
+    "bannerText": "探索未知好时光",
+    "bannerSubText": "开启新旅程，体验多元风情",
+    "imageAltPrefix": "歌诗达邮轮"
+  },
+  "Uniqueness": {
+    "bannerImageAlt": "歌诗达邮轮新意代心启航",
+    "bannerText": "新“意”代 心启航",
+    "bannerSubText": "六大独家体验，全新启航"
+  },
+  "PressRoom": {
+    "readMore": "阅读全文",
+    "pageTitle": "新闻中心",
+    "bannerImageAlt": "新闻中心背景图",
+    "loadMore": "加载更多",
+    "defaultImageAlt": "歌诗达·威尼斯号",
+    "noNotice": "暂无公告"
+  },
+  "PressDetail": {
+    "backToPressRoom": "返回新闻列表",
+    "backToNoticeBoard": "返回公告列表"
+  },
+  "Pagination": {
+    "jumpButtonText": "查看"
+  },
+  "BreadcrumbNames": {
+    "home": "主页",
+    "pressRoom": "新闻中心",
+    "pressDetail": "正文",
+    "noticeBoard": "公告栏",
+    "noticeDetail": "正文"
+  },
+  "shoreExcursion": {
+    "h1": "缤纷岸上游",
+    "h2": "与家人朋友共享",
+    "h1Mobile": " 缤纷岸上游 畅享无忧假期",
+    "viewLine": "查看路线",
+    "viewAll": "查看所有岸上游主题"
+  },
+  "excursionList": {
+    "bannerImage": "/media/shore-excursion/excursion-list/banner.jpg",
+    "bannerImageMobile": "/media/shore-excursion/excursion-list/banner-mobile.png",
+    "bannerText": "精选岸上游",
+    "bannerAlt": "精选岸上游背景图片",
+    "tipsTitle": "温馨提示",
+    "tips": [
+      "行程及价格仅供参考，我们将根据各航次港口停留时间的不同安排不同的行程，具体行程、价格及线路如有变更我们不再做另行通知。最终确认信息请以船上旅游部门的通知为准。",
+      "如需提前预定岸上游行程，请提前与我司客服中心核实确认。"
+    ],
+    "loadMore": "加载更多"
+  },
+  "excursionItem": {
+    "depTime": "出发时间",
+    "duration": "游玩时长",
+    "adult": "成人",
+    "child": "儿童",
+    "unit": "美金",
+    "book": "预订",
+    "readMore": "阅读更多",
+    "packUp": "收起"
+  },
+  "excursionSearchBar": {
+    "country": "所有国家",
+    "destination": "所有港口",
+    "type": "所有主题"
+  },
+  "excursionPopUp": {
+    "contactTitle": "联系我们预订岸上游服务（任选一种）",
+    "contactContent": [
+      "拨打热线电话 400 820 7888",
+      "询问歌诗达邮轮上的短途旅游服务人员"
+    ],
+    "tips": "*岸上游服务仅限于购买了歌诗达邮轮船票的乘客",
+    "popImage": "/media/shore-excursion/excursion-popup/popup.png"
+  }
+}

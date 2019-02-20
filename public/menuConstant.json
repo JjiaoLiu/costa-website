@@ -1,0 +1,183 @@
+{
+  "MENUS": [
+    {
+      "title": "意式体验",
+      "link": "/experiences",
+      "submenu": [
+        {
+          "title": "新“意”代 心启航",
+          "link": "/experiences/uniqueness",
+          "icon": "italia",
+          "noExact": true
+        },
+        {
+          "title": "尽享饕餮好时光",
+          "link": "/experiences/foods",
+          "icon": "food"
+        },
+        {
+          "title": "极致娱乐好时光",
+          "link": "/experiences/activities",
+          "icon": "activity"
+        },
+        {
+          "title": "免税嗨购好时光",
+          "link": "/experiences/shopping",
+          "icon": "shopping"
+        },
+        {
+          "title": "独家体验好时光",
+          "link": "/experiences/facilities",
+          "icon": "facility"
+        },
+        {
+          "title": "玩转童趣好时光",
+          "link": "/experiences/children",
+          "icon": "child"
+        }
+      ]
+    },
+    {
+      "title": "行程规划",
+      "link": "/itineraries",
+      "submenu": [
+        {
+          "title": "航线搜索",
+          "link": "/itineraries",
+          "icon": "itineraries-search"
+        },
+        {
+          "title": "发现目的地",
+          "link": "/itineraries/destinations",
+          "icon": "destination"
+        },
+        {
+          "title": "精选岸上游",
+          "link": "/itineraries/shore-excursion",
+          "icon": "shore-excursion"
+        },
+        {
+          "title": "邮轮百科",
+          "link": "/itineraries/fleet-wikipedia",
+          "icon": "fleet-wikipedia"
+        }
+      ]
+    },
+    {
+      "title": "邮轮船队",
+      "link": "/fleets",
+      "submenu": [
+        {
+          "title": "所有船只",
+          "link": "/fleets",
+          "icon": "fleet"
+        },
+        {
+          "title": "歌诗达邮轮赛琳娜号",
+          "link": "/fleets/serena",
+          "icon": "fleet",
+          "noExact": true
+        },
+        {
+          "title": "歌诗达邮轮大西洋号",
+          "link": "/fleets/atlantica",
+          "icon": "fleet",
+          "noExact": true
+        },
+        {
+          "title": "歌诗达邮轮新浪漫号",
+          "link": "/fleets/neoRomantica",
+          "icon": "fleet",
+          "noExact": true
+        },
+        {
+          "title": "歌诗达邮轮威尼斯号",
+          "link": "/fleets/venezia",
+          "icon": "fleet",
+          "noExact": true
+        },
+        {
+          "title": "海外出发船只",
+          "link": "/fly-cruise-fleets",
+          "icon": "fleet"
+        }
+      ]
+    },
+    {
+      "title": "关于歌诗达邮轮",
+      "link": "/about-costa",
+      "submenu": [
+        {
+          "title": "公司介绍",
+          "link": "/about-costa",
+          "icon": "about-company"
+        },
+        {
+          "title": "新闻中心",
+          "link": "/about-costa/press-room",
+          "icon": "press-room",
+          "noExact": true
+        }
+      ]
+    }
+  ],
+  "FOOTER_MENUS": [
+    {
+      "title": "歌诗达邮轮体验",
+      "submenu": [
+        {
+          "title": "新“意”代 心启航",
+          "link": "/experiences/uniqueness"
+        },
+        {
+          "title": "发现心仪好时光",
+          "link": "/experiences/foods"
+        },
+        {
+          "title": "航线搜索",
+          "link": "/itineraries"
+        },
+        {
+          "title": "邮轮船队",
+          "link": "/fleets"
+        },
+        {
+          "title": "邮轮百科",
+          "link": "/itineraries/fleet-wikipedia"
+        }
+      ]
+    },
+    {
+      "title": "关于歌诗达邮轮",
+      "submenu": [
+        {
+          "title": "公司介绍",
+          "link": "/about-costa"
+        },
+        {
+          "title": "新闻中心",
+          "link": "/about-costa/press-room"
+        },
+        {
+          "title": "歌诗达俱乐部",
+          "link": "/costa-club"
+        }
+      ]
+    },
+    {
+      "title": "乘客须知/登船指南",
+      "submenu": [
+        {
+          "title": "隐私政策",
+          "link": "/terms-and-conditions"
+        },
+        {
+          "title": "乘客条款",
+          "link": "/faq/4"
+        }
+      ]
+    }
+  ]
+}
+
+
