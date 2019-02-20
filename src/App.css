@@ -70,6 +70,7 @@ ul, menu, dir {
     position: relative;
     left: 0;
     top: -2.5px;
+    cursor: pointer;
 }
 
 .home-nav .nav-bar .nav-bar-line {
@@ -146,9 +147,9 @@ ul, menu, dir {
     border-radius: 50%;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
     .for-pc {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -159,7 +160,7 @@ ul, menu, dir {
     }
 
     .for-mobile {
-        display: none;
+        display: none !important;
     }
 
     /*导航*/
