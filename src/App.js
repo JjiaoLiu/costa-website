@@ -103,8 +103,8 @@ class App extends Component {
 								{String.Header.bookOnline}
 							</div>
 						</div>
-						<Menu menus={MENUS}/>
 					</div>
+					<Menu menus={MENUS} pc={false}/>
 				</Header>
 				<Content>
 				</Content>
