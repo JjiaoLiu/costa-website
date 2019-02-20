@@ -39,6 +39,16 @@ ul, menu, dir {
     border: none;
 }
 
+.show {
+    opacity: 1;
+    transition: opacity .5s;
+}
+
+.hide {
+    transition: opacity .5s;
+    opacity: 0;
+}
+
 /*小屏优先*/
 /*小屏*/
 .container {
@@ -46,6 +56,10 @@ ul, menu, dir {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.ant-layout-content {
+    margin-top: 60px;
 }
 
 /*导航*/
@@ -106,6 +120,22 @@ ul, menu, dir {
 /*nav-menu*/
 .home-nav .nav-menu {
     justify-self: right;
+}
+
+.fixed-nav-menu {
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    height: calc(100% - 60px);
+    background-color: #007ce7;
+}
+
+.nav-ul a[href] {
+    display: block;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    cursor: auto;
 }
 
 .nav-logo {

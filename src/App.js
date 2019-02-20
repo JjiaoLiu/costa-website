@@ -44,13 +44,15 @@ class App extends Component {
 		this.state = {
 			string: null,
 			menu: null,
-			activeNavBar: false
+			activeNavBar: false,
+			activeMobileNavBar: false
 		};
 	}
 
 	changeNavBar = () => {
 		this.setState(state => ({
-			activeNavBar: !state.activeNavBar
+			activeNavBar: !state.activeNavBar,
+			activeMobileNavBar: !state.activeMobileNavBar
 		}));
 	};
 
@@ -84,6 +86,7 @@ class App extends Component {
 		if (!String || !MENUS || !FOOTER_MENUS) {
 			return false
 		}
+		const ActiveMobileNavBar = this.state.activeMobileNavBar;
 		return (
 			<Layout className="app">
 				<Header className="home-nav">
@@ -104,7 +107,11 @@ class App extends Component {
 							</div>
 						</div>
 					</div>
-					<Menu menus={MENUS} pc={false}/>
+					<div className={ActiveMobileNavBar ? "show" : "hide"}>
+						<div className="fixed-nav-menu container">
+							<Menu menus={MENUS} pc={false}/>
+						</div>
+					</div>
 				</Header>
 				<Content>
 				</Content>
