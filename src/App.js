@@ -91,7 +91,7 @@ class App extends Component {
 			<Layout className="app">
 				<Header className="home-nav">
 					<div className="container nav-main">
-						<div className={this.state.activeNavBar ? "nav-bar for-mobile active" : "nav-bar for-mobile"}
+						<div className={ActiveMobileNavBar ? "nav-bar for-mobile active" : "nav-bar for-mobile"}
 								 onClick={this.changeNavBar}>
 							<span className="nav-bar-line"></span>
 							<span className="nav-bar-line"></span>
@@ -107,10 +107,8 @@ class App extends Component {
 							</div>
 						</div>
 					</div>
-					<div className={ActiveMobileNavBar ? "show" : "hide"}>
-						<div className="fixed-nav-menu container">
-							<Menu menus={MENUS} pc={false}/>
-						</div>
+					<div className="fixed-nav-menu container" style={{"display": ActiveMobileNavBar ? "block" : "none"}}>
+						<Menu menus={MENUS} pc={false}/>
 					</div>
 				</Header>
 				<Content>
