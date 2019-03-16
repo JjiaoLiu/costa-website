@@ -1,0 +1,229 @@
+/*导航*/
+.home-nav {
+  background: #007ab9;
+  padding: 0;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  z-index: 666;
+  /*nav-bar*/
+}
+@media (min-width: 768px) {
+  .home-nav {
+    height: 107px;
+  }
+  .home-nav .nav-right {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 74px);
+    max-width: 760px;
+  }
+  .home-nav .nav-ul-nested {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .home-nav .nav-ul-item:hover .nav-nested {
+    display: block;
+  }
+}
+.home-nav .nav-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.home-nav .nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+@media (min-width: 768px) {
+  .home-nav .nav-main {
+    align-items: stretch;
+  }
+}
+.home-nav .nav-ul {
+  list-style: none;
+  height: 100%;
+  border-top: 1px solid #5694c1;
+}
+@media (min-width: 768px) {
+  .home-nav .nav-ul {
+    display: inline-flex;
+    align-items: stretch;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 400;
+    width: calc(100% - 147px);
+    max-width: 550px;
+  }
+}
+.home-nav .nav-ul-item {
+  border-bottom: 1px solid #5694c1;
+  padding: 0 25px;
+}
+.home-nav .nav-ul-item > span {
+  color: #ffffff;
+}
+.home-nav .nav-ul-item.active {
+  background: #0057a2;
+}
+.home-nav .nav-ul-item.active > span {
+  color: #FED130;
+  font-size: 15px;
+}
+.home-nav .nav-ul-item.active .nav-nested {
+  display: block;
+}
+@media (min-width: 768px) {
+  .home-nav .nav-ul-item {
+    border-bottom: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .home-nav .nav-ul-item.active > span {
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 0 0px;
+    height: 100%;
+  }
+}
+.home-nav .nav-nested {
+  display: none;
+  list-style: none;
+  background: #0057a2;
+}
+@media (min-width: 768px) {
+  .home-nav .nav-nested {
+    position: absolute;
+    left: 0;
+    top: 107px;
+    width: 100%;
+    height: 70px;
+    background: #001b2f;
+    opacity: 0.6;
+  }
+  .home-nav .nav-nested .nav-ul-nested-item span {
+    color: #ffffff;
+    padding: 0 25px;
+    font-size: 14px;
+  }
+}
+.home-nav .nav-nested .nav-ul-nested {
+  list-style: none;
+}
+.home-nav .nav-nested .nav-ul-nested-item span {
+  color: #ffffff;
+  padding: 0 25px;
+  font-size: 13px;
+  display: block;
+  height: 100%;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.home-nav .nav-nested .nav-ul-nested-item span:hover {
+  color: #FED130;
+}
+@media (min-width: 768px) {
+  .home-nav .nav-nested .nav-ul-nested-item:first-child span {
+    padding-left: 0;
+  }
+  .home-nav .nav-nested .nav-ul-nested-item:last-child span {
+    padding-right: 0;
+  }
+}
+.home-nav .nav-bar {
+  position: relative;
+  left: 0;
+  top: -2.5px;
+  cursor: pointer;
+}
+.home-nav .nav-bar .nav-bar-line {
+  height: 2px;
+  overflow: hidden;
+  width: 20px;
+  display: block;
+  margin-top: 5px;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: white;
+}
+.home-nav .nav-bar.active .nav-bar-line:first-child {
+  margin-top: 5px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.home-nav .nav-bar.active .nav-bar-line:last-child {
+  margin-top: -5px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.home-nav .nav-bar.active .nav-bar-line:nth-child(2) {
+  opacity: 0;
+}
+.home-nav .nav-logo {
+  line-height: 1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.home-nav .nav-logo .logo {
+  width: 54px;
+  height: 40px;
+}
+@media (min-width: 768px) {
+  .home-nav .nav-logo {
+    position: static;
+    transform: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-nav .nav-logo .logo {
+    width: 74px;
+    height: 55px;
+  }
+}
+.home-nav .nav-book {
+  width: 85px;
+  height: 27px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 27px;
+  color: #007ab9;
+  background-color: #fed130;
+  border-radius: 14px;
+}
+@media (min-width: 768px) {
+  .home-nav .nav-book {
+    width: 147px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 23px;
+    font-size: 20px;
+  }
+}
+.fixed-nav-menu {
+  position: fixed;
+  top: 70px;
+  width: 100%;
+  height: calc(100% - 60px);
+  background-color: #007ab9;
+}
+.top-banner-dots {
+  width: 10px;
+  height: 10px;
+  background-color: #fed130;
+  border-radius: 50%;
+}

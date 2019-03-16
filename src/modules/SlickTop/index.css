@@ -1,0 +1,22 @@
+.top-slick img {
+  width: 100%;
+  border: none;
+}
+.top-slick .top-slick-dots {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  bottom: 30px;
+}
+.top-slick .slick-dots li button:before {
+  font-size: 10px;
+  color: #ffffff;
+  opacity: 1;
+}
+.top-slick .slick-dots li button:hover,
+.top-slick .slick-dots li button:focus,
+.top-slick .slick-dots li.slick-active button:before {
+  color: #fed130;
+  opacity: 1;
+}

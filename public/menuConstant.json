@@ -1,5 +1,5 @@
 {
-  "MENUS": [
+  "HEADER_MENUS": [
     {
       "title": "意式体验",
       "link": "/experiences",
@@ -177,7 +177,8 @@
         }
       ]
     }
-  ]
+  ],
+  "BOOK_ON_LINE": "在线预订"
 }
 
 

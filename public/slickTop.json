@@ -1,0 +1,48 @@
+{
+  "BANNER_M": [
+    {
+      "title": "意式体验",
+      "link": "/experiences",
+      "src": "./images/top-banner-1.jpg"
+    },
+    {
+      "title": "意式体验",
+      "link": "/experiences",
+      "src": "./images/top-banner-2.jpg"
+    },
+    {
+      "title": "意式体验",
+      "link": "/experiences",
+      "src": "./images/top-banner-3.jpg"
+    },
+    {
+      "title": "意式体验",
+      "link": "/experiences",
+      "src": "./images/top-banner-4.jpg"
+    }
+  ],
+  "BANNER_PC": [
+    {
+      "title": "意式体验",
+      "link": "/experiences",
+      "src": "./images/top-banner-1.jpg"
+    },
+    {
+      "title": "意式体验",
+      "link": "/experiences",
+      "src": "./images/top-banner-2.jpg"
+    },
+    {
+      "title": "意式体验",
+      "link": "/experiences",
+      "src": "./images/top-banner-3.jpg"
+    },
+    {
+      "title": "意式体验",
+      "link": "/experiences",
+      "src": "./images/top-banner-4.jpg"
+    }
+  ]
+}
+
+
